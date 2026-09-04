@@ -68,7 +68,7 @@ The page includes responsive styling for smaller screens, including adjusted her
 ## How to Run
 1. Clone the repository.
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Monesh-Devadiga/PulseXUltra
 ```
 2. Open the project folder.
 3. Open `index.html` in your browser.
