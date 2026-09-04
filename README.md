@@ -27,7 +27,6 @@ The project includes five required interactive components:
 * Supports keyboard arrow navigation.
 
 #### Tabbed Interface
-
 Four feature categories:
 
 * Health
