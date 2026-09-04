@@ -36,15 +36,7 @@ Each tab displays its own content dynamically.
 ### Modal/Dialog
 The "Pre-Order Now" button opens a product pre-order modal.
 
-The modal includes:
 
-* Product price
-* Discount information
-* Product benefits
-* Reserve Now button
-* Close button
-* Escape key support
-* Overlay click support
 
 ### Form Validation
 
