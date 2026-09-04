@@ -28,7 +28,6 @@ The project includes five required interactive components:
 
 #### Tabbed Interface
 Four feature categories:
-
 * Health
 * Fitness
 * Connectivity
