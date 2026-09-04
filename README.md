@@ -70,9 +70,7 @@ The page includes responsive styling for smaller screens, including adjusted her
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
-
 2. Open the project folder.
-
 3. Open `index.html` in your browser.
 
 No build tools or dependencies are required.
