@@ -74,36 +74,6 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 3. Open `index.html` in your browser.
 No build tools or dependencies are required.
 
-## Testing
-
-The following interactions were tested:
-
-* Dark mode toggle
-* Carousel Previous and Next buttons
-* First and last carousel slides
-* Carousel navigation dots
-* Keyboard carousel navigation
-* Tab switching
-* Modal opening and closing
-* Escape key modal closing
-* Empty form submission
-* Invalid email validation
-* Invalid phone validation
-* Color selection validation
-* Terms and conditions validation
-* Successful form submission
-
-## Internship
-
-This project was developed as part of my frontend development internship at SkillAudit.
-
-## Author
-
-Monesh K D
-
-GitHub: YOUR_GITHUB_PROFILE_URL
-
-LinkedIn: YOUR_LINKEDIN_PROFILE_URL
 
 ## Project Demo
 
