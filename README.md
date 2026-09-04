@@ -39,7 +39,7 @@ The "Pre-Order Now" button opens a product pre-order modal.
 #### Form Validation
 The pre-order form validates:
 * Full name (At least 2 characters)
-* Email address
+* Email address (Valid email)
 * Phone number
 * Preferred color
 * Terms and conditions
