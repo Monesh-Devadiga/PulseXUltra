@@ -75,4 +75,4 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 No build tools or dependencies are required.
 
 ## Project Demo
-Live Demo: YOUR_LIVE_PROJECT_URL
+Live Demo: pulsexultra.netlify.app
