@@ -25,7 +25,6 @@ The project includes five required interactive components:
 * Automatic slide transition.
 * Pauses while hovering over the carousel.
 * Supports keyboard arrow navigation.
-* Wraps from the first slide to the last and vice versa.
 
 ### Tabbed Interface
 
