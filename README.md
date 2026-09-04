@@ -76,5 +76,3 @@ No build tools or dependencies are required.
 
 ## Project Demo
 Live Demo: YOUR_LIVE_PROJECT_URL
-
-The HTML page contains the PulseX Ultra hero section, carousel, feature tabs, specifications, pre-order form, and modal components.  
