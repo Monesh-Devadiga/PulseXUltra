@@ -14,11 +14,11 @@ The project includes five required interactive components:
 
 ## Features
 
-### Dark Mode
+#### Dark Mode
 * Toggle between light and dark themes.
 * Saves the user's theme preference using localStorage.
 
-### Image Carousel
+#### Image Carousel
 
 * Four smartwatch product images.
 * Previous and Next navigation.
