@@ -34,7 +34,6 @@ Four feature categories:
 Each tab displays its own content dynamically.
 
 ### Modal/Dialog
-
 The "Pre-Order Now" button opens a product pre-order modal.
 
 The modal includes:
