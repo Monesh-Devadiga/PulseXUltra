@@ -41,7 +41,7 @@ The pre-order form validates:
 * Full name (At least 2 characters)
 * Email address (Valid email)
 * Phone number (valid ph. No)
-* Preferred color
+* Preferred color (from dropdown options)
 * Terms and conditions
 
 It provides:
