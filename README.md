@@ -63,7 +63,6 @@ PulseX-Ultra/
 ```
 
 ## Responsive Design
-
 The page includes responsive styling for smaller screens, including adjusted hero typography, navigation spacing, carousel height, tabs and modal content. 
 
 ## How to Run
