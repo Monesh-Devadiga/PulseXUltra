@@ -53,7 +53,6 @@ The pre-order form validates:
 No frameworks or JavaScript libraries were used.
 
 ## Project Structure
-
 ```text
 PulseX-Ultra/
 │
