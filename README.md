@@ -4,7 +4,7 @@ An interactive smartwatch product landing page built as part of my frontend deve
 
 ## Project Overview
 
-PulseX Ultra is a modern smartwatch landing page focused on demonstrating interactive JavaScript components using vanilla JavaScript.
+PulseX Ultra is a modern smartwatch landing page focused on demonstrating interactive JavaScript components using vanilla JavaScript.  
 The project includes five required interactive components:
 1. Dark Mode Toggle
 2. Image Carousel
