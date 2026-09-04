@@ -76,3 +76,8 @@ No build tools or dependencies are required.
 
 ## Project Demo
 Live Demo: [PulseXUltra](https://pulsexultra.netlify.app/)
+
+---------------------------------------------------------------------------------------------------------------------
+Created By: 
+  [@Monesh Devadiga](https://github.com/Monesh-Devadiga)
+
