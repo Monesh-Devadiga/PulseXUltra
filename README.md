@@ -31,7 +31,6 @@ Four feature categories:
 * Fitness
 * Connectivity
 * Battery
-
 Each tab displays its own content dynamically.
 
 ### Modal/Dialog
