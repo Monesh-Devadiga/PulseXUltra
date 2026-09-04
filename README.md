@@ -50,7 +50,6 @@ The pre-order form validates:
 * Vanilla JavaScript
 * SVG
 * LocalStorage
-
 No frameworks or JavaScript libraries were used.
 
 ## Project Structure
