@@ -44,7 +44,6 @@ The pre-order form validates:
 * Preferred color (from dropdown options)
 * Terms and conditions
 
-
 ## Technologies Used
 
 * HTML5
