@@ -13,7 +13,6 @@ The project includes five required interactive components:
 5. Form Validation
 
 ## Features
-
 #### Dark Mode
 * Toggle between light and dark themes.
 * Saves the user's theme preference using localStorage.
