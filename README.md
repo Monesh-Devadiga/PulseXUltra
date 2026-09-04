@@ -1,6 +1,6 @@
 # PulseX Ultra | Interactive Smartwatch Landing Page
 
-An interactive smartwatch product landing page built as part of my frontend development internship at SkillAudit.
+An interactive smartwatch product landing page built as part of my frontend development internship.
 
 ## Project Overview
 
