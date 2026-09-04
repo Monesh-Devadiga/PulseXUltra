@@ -75,9 +75,6 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 No build tools or dependencies are required.
 
 ## Project Demo
-
 Live Demo: YOUR_LIVE_PROJECT_URL
-
-Screen Recording: YOUR_SCREEN_RECORDING_URL
 
 The HTML page contains the PulseX Ultra hero section, carousel, feature tabs, specifications, pre-order form, and modal components.  
