@@ -66,9 +66,7 @@ PulseX-Ultra/
 The page includes responsive styling for smaller screens, including adjusted hero typography, navigation spacing, carousel height, tabs and modal content. 
 
 ## How to Run
-
 1. Clone the repository.
-
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
