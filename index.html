@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseX Ultra - Next-Gen Smartwatch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="darkModeToggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+        <span class="icon-sun">&#9788;</span>
+        <span class="icon-moon">&#9790;</span>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">PulseX<span>Ultra</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#carousel">Gallery</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Time. Reimagined.</h1>
+            <p>PulseX Ultra blends titanium durability with AI-powered health tracking. 
+               The smartwatch that knows you better than you know yourself.</p>
+            <button id="openModal" class="btn-primary">Pre-Order Now</button>
+        </div>
+    </header>
+
+    <!-- Image Carousel -->
+    <section id="carousel" class="section carousel-section">
+        <h2>See It In Action</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous slide">&#10094;</button>
+            <div class="carousel-track-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide active">
+                        <img src="https://images.pexels.com/photos/437038/pexels-photo-437038.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Smartwatch front view">
+                        <div class="slide-caption">Midnight Titanium</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.pexels.com/photos/5083218/pexels-photo-5083218.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Smartwatch side view">
+                        <div class="slide-caption">Rose Gold Edition</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.pexels.com/photos/8217286/pexels-photo-8217286.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Smartwatch on wrist">
+                        <div class="slide-caption">Sport Band Variant</div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="https://images.pexels.com/photos/18078983/pexels-photo-18078983.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop" alt="Smartwatch detail">
+                        <div class="slide-caption">Sapphire Crystal Display</div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next slide">&#10095;</button>
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- Tabbed Interface - Features -->
+    <section id="features" class="section tabs-section">
+        <h2>Why PulseX Ultra?</h2>
+        <div class="tabs-container">
+            <div class="tab-list" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" data-tab="health">Health</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="fitness">Fitness</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="connectivity">Connectivity</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="battery">Battery</button>
+            </div>
+            <div class="tab-panels">
+                <div class="tab-panel active" id="panel-health" role="tabpanel">
+                    <div class="panel-content">
+                        <div class="panel-icon">&#9829;</div>
+                        <h3>24/7 Health Monitoring</h3>
+                        <p>Continuous heart rate, SpO2, stress level, and blood pressure tracking powered by our proprietary BioSense AI engine. 
+                           Detects irregularities and sends alerts to your phone instantly.</p>
+                        <ul>
+                            <li>ECG-grade heart monitoring</li>
+                            <li>Blood oxygen saturation (SpO2)</li>
+                            <li>Advanced sleep stage analysis</li>
+                            <li>Skin temperature sensing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-panel" id="panel-fitness" role="tabpanel">
+                    <div class="panel-content">
+                        <div class="panel-icon">&#9733;</div>
+                        <h3>120+ Workout Modes</h3>
+                        <p>From HIIT to hiking, PulseX Ultra auto-detects your activity and tracks every metric that matters. 
+                           GPS, altimeter, and accelerometer work together for precision tracking.</p>
+                        <ul>
+                            <li>Auto-detect 40+ exercises</li>
+                            <li>VO2 Max estimation</li>
+                            <li>Recovery time advisor</li>
+                            <li>Multi-sport triathlon mode</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-panel" id="panel-connectivity" role="tabpanel">
+                    <div class="panel-content">
+                        <div class="panel-icon">&#8767;</div>
+                        <h3>Always Connected</h3>
+                        <p>Bluetooth 5.3, Wi-Fi 6, NFC payments, and optional LTE. 
+                           Make calls, stream music, and reply to messages right from your wrist.</p>
+                        <ul>
+                            <li>Built-in eSIM / LTE support</li>
+                            <li>Contactless payments</li>
+                            <li>Voice assistant integration</li>
+                            <li>SOS emergency calling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-panel" id="panel-battery" role="tabpanel">
+                    <div class="panel-content">
+                        <div class="panel-icon">&#9889;</div>
+                        <h3>14-Day Battery Life</h3>
+                        <p>Our silicon-carbon battery technology delivers up to 14 days on a single charge, 
+                           or 72 hours with always-on display and GPS active.</p>
+                        <ul>
+                            <li>Magnetic wireless charging</li>
+                            <li>0-100% in 45 minutes</li>
+                            <li>Solar-assist top-up (outdoor mode)</li>
+                            <li>Low-power ambient display</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specs Section -->
+    <section id="specs" class="section specs-section">
+        <h2>Technical Specifications</h2>
+        <div class="specs-grid">
+            <div class="spec-card">
+                <div class="spec-value">1.6"</div>
+                <div class="spec-label">AMOLED Display</div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-value">50m</div>
+                <div class="spec-label">Water Resistance</div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-value">32g</div>
+                <div class="spec-label">Ultra-Light Build</div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-value">2GB</div>
+                <div class="spec-label">Storage</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Pre-order Form -->
+    <section id="contact" class="section form-section">
+        <h2>Reserve Yours</h2>
+        <p class="form-subtitle">Join the waitlist. First 500 orders get a free extra band.</p>
+        <form id="preorderForm" novalidate>
+            <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com">
+                <span class="error-msg" id="emailError"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                <span class="error-msg" id="phoneError"></span>
+            </div>
+            <div class="form-group">
+                <label for="color">Preferred Color *</label>
+                <select id="color" name="color">
+                    <option value="">-- Select Color --</option>
+                    <option value="midnight">Midnight Titanium</option>
+                    <option value="rosegold">Rose Gold</option>
+                    <option value="silver">Arctic Silver</option>
+                    <option value="black">Carbon Black</option>
+                </select>
+                <span class="error-msg" id="colorError"></span>
+            </div>
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the pre-order terms and conditions *</label>
+                <span class="error-msg" id="termsError"></span>
+            </div>
+            <button type="submit" class="btn-primary">Submit Pre-Order</button>
+            <div class="form-success" id="formSuccess">
+                <p>&#10003; Thank you! Your pre-order has been reserved. We'll email you soon.</p>
+            </div>
+        </form>
+    </section>
+
+    <!-- Modal / Dialog -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="Close dialog">&times;</button>
+            <div class="modal-body">
+                <h2 id="modalTitle">PulseX Ultra Pre-Order</h2>
+                <div class="modal-price">&#8377;3,499 <span>&#8377;4,999</span></div>
+                <p>Be among the first to own the future of wearable tech. 
+                   Pre-order today and save &#8377;1,500 off the retail price.</p>
+                <div class="modal-features">
+                    <div class="modal-feature">&#10003; Free shipping worldwide</div>
+                    <div class="modal-feature">&#10003; 30-day money-back guarantee</div>
+                    <div class="modal-feature">&#10003; 2-year warranty</div>
+                    <div class="modal-feature">&#10003; Free extra sport band</div>
+                </div>
+                <button class="btn-primary" onclick="document.getElementById('modalOverlay').classList.remove('open'); document.getElementById('contact').scrollIntoView({behavior:'smooth'});">
+                    Reserve Now
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 PulseX Ultra. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
