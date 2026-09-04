@@ -62,19 +62,6 @@ PulseX-Ultra/
 └── README.md
 ```
 
-## JavaScript Structure
-Each interactive component uses its own initialization function:
-
-```text
-initDarkMode()
-initCarousel()
-initTabs()
-initModal()
-initForm()
-```
-
-This keeps the JavaScript organized and easier to maintain. 
-
 ## Responsive Design
 
 The page includes responsive styling for smaller screens, including adjusted hero typography, navigation spacing, carousel height, tabs, and modal content. 
