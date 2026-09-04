@@ -26,7 +26,7 @@ The project includes five required interactive components:
 * Pauses while hovering over the carousel.
 * Supports keyboard arrow navigation.
 
-### Tabbed Interface
+#### Tabbed Interface
 
 Four feature categories:
 
