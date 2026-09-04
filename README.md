@@ -45,7 +45,6 @@ The pre-order form validates:
 * Terms and conditions
 
 ## Technologies Used
-
 * HTML5
 * CSS3
 * Vanilla JavaScript
