@@ -19,7 +19,6 @@ The project includes five required interactive components:
 * Saves the user's theme preference using localStorage.
 
 #### Image Carousel
-
 * Four smartwatch product images.
 * Previous and Next navigation.
 * Clickable navigation dots.
