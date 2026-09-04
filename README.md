@@ -33,7 +33,7 @@ Four feature categories:
 * Battery
 Each tab displays its own content dynamically.
 
-### Modal/Dialog
+#### Modal/Dialog
 The "Pre-Order Now" button opens a product pre-order modal.
 
 
