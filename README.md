@@ -39,7 +39,6 @@ The "Pre-Order Now" button opens a product pre-order modal.
 
 
 ### Form Validation
-
 The pre-order form validates:
 
 * Full name
