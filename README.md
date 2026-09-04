@@ -63,7 +63,6 @@ PulseX-Ultra/
 ```
 
 ## JavaScript Structure
-
 Each interactive component uses its own initialization function:
 
 ```text
