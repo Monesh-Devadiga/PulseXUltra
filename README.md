@@ -44,12 +44,7 @@ The pre-order form validates:
 * Preferred color (from dropdown options)
 * Terms and conditions
 
-It provides:
 
-* Error messages
-* Real-time validation
-* Valid field indicators
-* Success message after valid submission
 
 ## Technologies Used
 
