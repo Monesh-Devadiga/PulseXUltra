@@ -80,4 +80,3 @@ Live Demo: [PulseXUltra](https://pulsexultra.netlify.app/)
 ---------------------------------------------------------------------------------------------------------------------
 Created By: 
   [@Monesh Devadiga](https://github.com/Monesh-Devadiga)
-
